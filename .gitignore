@@ -1,0 +1,7 @@
+# Ignore everything in this repository
+*
+
+# But keep these three files trackable
+!.gitignore
+!README.md
+!LICENSE
