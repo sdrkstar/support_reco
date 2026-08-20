@@ -1,6 +1,6 @@
 # GST RECO — Enterprise Desktop Reconciliation Platform
 
-[![Latest Release](https://img.shields.io/badge/latest%20release-v1.2.4-teal.svg)](https://github.com/sdrkstar/support_reco/releases/latest)
+[![Latest Release](https://img.shields.io/github/v/release/sdrkstar/support_reco?color=teal&label=latest%20release)](https://github.com/sdrkstar/support_reco/releases/latest)
 [![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Windows%20x64-blue.svg)](https://github.com/sdrkstar/support_reco/releases/latest)
 
