@@ -1,8 +1,8 @@
 # GST RECO — Enterprise Desktop Reconciliation Platform
 
-[![Version](https://img.shields.io/badge/version-1.2.2-teal.svg)](https://github.com/sdrkstar/gst_reco/releases)
+[![Latest Release](https://img.shields.io/github/v/release/sdrkstar/gst_reco?color=teal&label=version)](https://github.com/sdrkstar/gst_reco/releases/latest)
 [![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg)](LICENSE)
-[![Platform](https://img.shields.io/badge/platform-Windows%20x64-blue.svg)](https://github.com/sdrkstar/gst_reco/releases)
+[![Platform](https://img.shields.io/badge/platform-Windows%20x64-blue.svg)](https://github.com/sdrkstar/gst_reco/releases/latest)
 
 **GST RECO** is a high-performance offline Windows desktop application built for Chartered Accountants, Tax Professionals, and Finance Teams to reconcile GST Purchase Registers, Sales Registers, GSTR-2B, GSTR-3B, and Electronic Ledgers with high speed and zero data leakage.
 
@@ -27,8 +27,8 @@
 
 ### Downloading Pre-Built Installers
 
-1. Go to the [Releases](https://github.com/sdrkstar/gst_reco/releases) page.
-2. Download the latest installer: **`Reco Setup v1.2.2.exe`**.
+1. Go to the [Releases](https://github.com/sdrkstar/gst_reco/releases/latest) page.
+2. Download the latest Windows installer (`Reco Setup v<version>.exe`).
 3. Run the installer to install GST RECO on Windows.
 
 ---
@@ -42,32 +42,7 @@
 
 ### 1. Clone & Install Dependencies
 ```bash
-git clone https://github.com/sdrkstar/gst_reco.git
+git clone [https://github.com/sdrkstar/gst_reco.git](https://github.com/sdrkstar/gst_reco.git)
 cd gst_reco
 npm install
 pip install -r backend/requirements.txt
-```
-
-### 2. Run Locally in Development Mode
-```bash
-npm run dev
-```
-
-### 3. Build Backend Binary (`backend.exe`)
-```bash
-pyinstaller backend.spec --noconfirm
-powershell -Command "Copy-Item -Path 'dist/backend.exe' -Destination 'backend/dist/backend.exe' -Force"
-```
-
-### 4. Package Windows Production Installer
-```bash
-npm run build
-npm run package:app
-```
-The compiled setup installer will be generated in `dist-v122/Reco Setup v1.2.2.exe`.
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
